@@ -9,6 +9,7 @@ expected_columns = joblib.load('columns.pkl')
 st.title("Heart Stroke Prediction by akarsh")
 st.markdown("Provide the following details to check your heart stroke risk:")
 
+
 # Collect user input
 age = st.slider("Age", 18, 100, 40)
 sex = st.selectbox("Sex", ["M", "F"])
